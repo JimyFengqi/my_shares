@@ -73,7 +73,7 @@ print ( "len(no_rank_list) =%d" % len(no_rank_list) )
 all_list=[a_plus_list,a_list,a_reduce_list,b_plus_list,b_list,b_reduce_list,c_plus_list,c_list,c_reduce_list,d_plus_list,d_list,d_reduce_list]
 print_list (all_list)
 
-
+print (','.join(a['code'] for a in a_plus_list ))
 
 
 
